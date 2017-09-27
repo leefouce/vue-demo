@@ -2,7 +2,7 @@
   <nav class="navbar navbar-default" id="navbar">
     <div class="navbar-header">
       <a class="navbar-brand" v-link="`/`">
-        Vue Demo
+        Leefouce Msg Board
       </a>
     </div>
     <ul class="nav navbar-nav">
@@ -17,16 +17,6 @@
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right m-r-5">
-      <li data-toggle="tooltip" title="Github">
-        <a href="https://github.com/kenberkeley/vue-demo" target="_blank">
-          <i class="fa fa-github fa-lg"></i>
-        </a>
-      </li>
-      <li data-toggle="tooltip" title="文档">
-        <a href="../docs/_book" target="_blank">
-          <i class="fa fa-book fa-lg"></i>
-        </a>
-      </li>
       <li v-if="$root.userData" class="dropdown">
         <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
           <i class="fa fa-user-secret fa-lg m-r-5"></i>
